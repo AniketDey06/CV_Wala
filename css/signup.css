@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* overflow-x: hidden; */
+    /* background:linear-gradient(rgba(60, 60, 60, 0.7),rgba(60, 60, 60, 0.7)), url(img1.jpg);  */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../img/bg.jpg); */
+    /* background-color: #f16fa1; */
+    /* background-image: linear-gradient(83deg, #8b55f5, #f16fa1); */
+}
+
+.bg{
+    height: 90%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.center{
+    width: 90%;
+    height: 90%;
+    /* height: 100vh;  */
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top: 60px;
+    /* filter: blur(1px); */
+    /* background: rgba(255, 255, 255, 0.2); */
+    /* border: 2px solid green; */
+    /* box-shadow: 0 4px 12px rgb(0 0 0 / 30%); */
+    border-radius: 5px;
+    /* background: white; */
+    /* margin-top: 111px; */
+    /* top: 50%; */
+    
+}
+
+.ele1{
+    text-align: left;
+    background-position: center center;
+    /* border: 2px solid blue; */
+}
+
+.ele1 p{
+    padding-top: 0;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Yellowtail', cursive;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+form {
+    /* background: rgba(255, 255, 255, 10%); */
+    /* border: 1px solid black; */
+    box-shadow: 0 4px 12px rgb(0 0 0 / 30%);
+    width: 350px;
+    height: 510px;
+    padding: 20px ;
+    /* padding-top: ; */
+    padding-bottom: 5%;
+    border-radius: 5px;
+    font-size: 16px; 
+
+}
+
+.box{
+    text-align: center;
+   
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    color: black;
+}
+
+footer{
+    /* margin-top: 7vh; */
+    background-color: gray;
+}
+
+
+form h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.name{
+    margin-top: 25px;
+}
+
+.inputs input:focus{
+    outline: 0;
+}
+.inputs{
+
+    margin-bottom: 10px;
+}
+
+.inputs.err input{
+    border-color: #09c372;
+}
+
+.inputs.succ input{
+    border-color: #ff3860;
+    font-size: 9px;
+    height: 12px;
+}
+
+/* err icons */
+
+#name,#email,#phicon,#password,#cpassword{
+    position: relative;
+}
+#usericon{
+    position: absolute;
+    left: 92%;
+    top: 15%;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+}
+
+#emailicon{
+    position: absolute;
+    left: 92%;
+    top: 15%;
+    cursor: pointer;
+    display: none;
+}
+
+#passicon{
+    position: absolute;
+    left: 82%;
+    top: 15%;
+    cursor: pointer;
+    display: none;
+}
+
+#cpassicon{
+    position: absolute;
+    left: 82%;
+    top: 15%;
+    cursor: pointer;
+    display: none;
+}
+
+
+#phicon{
+    position: absolute;
+    left: 92%;
+    top: 15%;
+    cursor: pointer;
+    display: none;
+}
+#passeye,#cpasseye{
+    position: absolute;
+    left: 92%;
+    top: 15%;
+    cursor: pointer;
+}
+
+/* pop-over */
+/* name */
+.popname{
+    position: absolute;
+    bottom: 6px;
+    left: 325px;
+    font-weight: 400;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+    height: 36px;
+    width: 200px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 30%);
+}
+
+.popname::before{
+    content: '';
+    position: absolute;
+    border: 1rem solid ;
+    border-color: rgb(0, 0, 0)  transparent transparent;
+    left: -12%;
+    rotate: 90deg;
+}
+
+/* email */
+.popemail{
+    position: absolute;
+    bottom: 6px;
+    left: 325px;
+    font-weight: 400;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+    height: 35px;
+    width: 200px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 30%);
+}
+
+.popemail::before{
+    content: '';
+    position: absolute;
+    border: 1rem solid ;
+    border-color: rgb(0, 0, 0)  transparent transparent;
+    left: -12%;
+    rotate: 90deg;
+}
+
+/* phone */
+.popph{
+    position: absolute;
+    bottom: 2px;
+    left: 325px;
+    font-weight: 400;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+    height: 40px;
+    width: 230px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 30%);
+}
+
+.popph::before{
+    content: '';
+    position: absolute;
+    border: 1rem solid ;
+    border-color: rgb(0, 0, 0)  transparent transparent;
+    left: -11%;
+    rotate: 90deg;
+}
+
+/* password */
+.poppass{
+    position: absolute;
+    bottom: -2px;
+    left: 325px;
+    font-weight: 400;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+    /* height: 35px; */
+    width: 255px;
+    padding-left: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 30%);
+    text-align: left;
+}
+
+.poppass::before{
+    content: '';
+    position: absolute;
+    border: 1rem solid ;
+    border-color: rgb(0, 0, 0)  transparent transparent;
+    left: -10%;
+    rotate: 90deg;
+    bottom: 10px;
+}
+
+
+/* confirm password */
+.popcpass{
+    position: absolute;
+    bottom: 8px;
+    left: 325px;
+    font-weight: 400;
+    font-size: 15px;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+    height: 40px;
+    width: 220px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 30%);
+}
+
+.popcpass::before{
+    content: '';
+    position: absolute;
+    border: 14px solid ;
+    border-color: rgb(0, 0, 0)  transparent transparent;
+    left: -10%;
+    rotate: 90deg;
+}

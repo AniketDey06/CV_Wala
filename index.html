@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="/img/cv_icon.png">
+
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <title>CV Wala</title>
+</head>
+
+<body>
+
+    <nav
+        class="  px-2 sm:px-4 py-2.5 bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-black border-black">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <div class="logo">
+                <a href="#" class="flex items-center ">
+                    <span class="">CV Wala</span>
+                </a>
+            </div>
+
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="flex flex-col p-4 mt-4  rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#service"
+                            class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#temp"
+                            class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Templates</a>
+                    </li>
+                    <li>
+                        <a href="#team"
+                            class="block py-2 pr-4 pl-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Team</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nvabtn flex items-center md:order-2">
+                <a href="login.php" target="_blank"
+                    class="text-white dark:text-white  focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 hover:bg-gray-700 focus:outline-none focus:ring-gray-800">Login</a>
+                <a href="signup.php" target="_blank"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 md:px-5 md:py-2.5 mr-1 md:mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Sign up</a>
+            </div>
+        </div>
+    </nav>
+    <div class="bg">
+        <div class="txtbody1">
+            <div class="cont">
+                <section class="home">
+                    
+                    <div class="text">
+                        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-white">
+                            Create your best resume with us
+                        </h1>
+                        <p class="mb-6 text-lg font-normal  lg:text-xl text-center sm:px-16 xl:px-48 text-white">
+                            Use our resume maker to build an easy and less time consuming online resume
+                            that helps your CV become truely compititive.
+                        </p>
+                        <a href="login.php" target="_blank" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                            Create Now
+                        </a>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="txtbody2" id="service">
+            <div class="cont">
+                <section class="service">
+                    <div class="row">
+                        <div class="service-col">
+                            <div>
+                                <h3>Easy to read layout</h3>
+                                <p>A professional CV template which will surely make you stand out,
+                                    with its easy <br>to read layout and crisp details.</p>
+                            </div>
+                        </div>
+                        <br>
+
+
+                        <div class="service-col">
+                            <div>
+                                <h3>Safety of your data</h3>
+                                <p>Your data is kept private and protected by our strong encryption process.</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="row" id="row2">
+                        <div class="service-col">
+                            <div>
+                                <h3>Student friendly</h3>
+                                <p>We offer free CV templates, so
+                                    you can take advantage of our CV builder.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="txtbody3" >
+
+        <div class="cont">
+            <section id="temp">
+                <div class="row">
+                    <div class="head">
+                        <h2>Temp<span>lates</span></h2>
+                    </div>
+                     <div class="templates">
+                        <div class="temp-row">
+                            <a href="img/1.jpeg" data-lightbox="mygallery">
+
+                                <img src="img/1.jpeg" alt="">
+                            </a>
+                            <a href="img/2.jpeg" data-lightbox="mygallery">
+
+                                <img src="img/2.jpeg" alt="">
+                            </a>
+                            <a href="img/3.jpeg" data-lightbox="mygallery">
+
+                                <img src="img/3.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="temp-row">
+                            <a href="img/temp1.webp" data-lightbox="mygallery">
+
+                                <img src="img/temp1.webp" alt="">
+                            </a>
+                            <a href="img/temp2.webp" data-lightbox="mygallery">
+
+                                <img src="img/temp2.webp" alt="">
+                            </a>
+                            <a href="img/temp3.jpeg" data-lightbox="mygallery">
+
+                                <img src="img/temp3.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="temp-row">
+                            <a href="img/temp4.png" data-lightbox="mygallery">
+
+                                <img src="img/temp4.png" alt="">
+                            </a>
+                            <a href="img/temp5.jpg" data-lightbox="mygallery">
+
+                                <img src="img/temp5.jpg" alt="">
+                            </a>
+                            <a href="img/temp6.webp" data-lightbox="mygallery">
+
+                                <img src="img/temp6.webp" alt="">
+                            </a>
+                        </div>
+                        
+                            <!-- <img src="img/2.jpeg" alt=""> -->
+                            <!-- <img src="img/3.jpeg" alt=""> -->
+                        </div>
+                    </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="cre" >
+        <div class="cont">
+            <div class="head" id="team">
+                <h2>Meet Our Team</h2>
+            </div>
+
+            <div class="cre-row one">
+                            
+                <div class="m-2 w-full max-w-sm border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                        
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/aniket.jpg" alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Aniket Dey</h5>
+                        <span class="text-sm text-gray-400">Project Head, Frontend Developer</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">HTML, CSS, JS, TailWindCSS,  PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="m-2 w-full max-w-sm  border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                        
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/pramita.jpeg" alt=""/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Pramita Karmakar</h5>
+                        <span class="text-sm text-gray-400">Frontend Developer</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">HTML, CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="m-2 w-full max-w-sm  border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                        
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/marjit.jpeg" alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Marjit Halder</h5>
+                        <span class="text-sm text-gray-400">Frontend Developer</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">HTML, CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+            <div class="cre-row">
+                            
+                <div class="m-2 w-full max-w-sm  border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                        
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/bag.jpg" alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Subhajit Bag</h5>
+                        <span class="text-sm text-gray-400">Database Administrator</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">HTML, CSS, JS, PHP, phpMyAdmin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="m-2 w-full max-w-sm border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                       
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/purbasha.jpg" alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Purbasha Das</h5>
+                        <span class="text-sm text-gray-400">Backend Developer</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">PHP, phpMyAdmin</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="m-2 w-full max-w-sm border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                        
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/arnab.jpg" alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Arnab Prasad</h5>
+                        <span class="text-sm text-gray-400">Backend Developer</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">PHP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cre-row">
+                            
+                <div class="m-2 w-full max-w-sm border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                        
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/susmita.jpg" alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Susmita Banik</h5>
+                        <span class="text-sm text-gray-400">Documentation Associate</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">MS Office</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="m-2 w-full max-w-sm  border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                        <!-- Dropdown menu -->
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/arpita.jpg" alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Arpita Sardar</h5>
+                        <span class="text-sm text-gray-400">Documentation Associate</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">MS Office</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="m-2 w-full max-w-sm border border-gray-200 rounded-lg shadow-md bg-gray-800 border-gray-700">
+                    <div class="flex justify-end px-4 pt-4">
+                        
+                        <!-- Dropdown menu -->
+                        
+                    </div>
+                    <div class="flex flex-col items-center pb-10">
+                        <img class="w-24 h-24 mb-3 rounded-full shadow-lg" src="img/mimi.jpg" alt="Bonnie image"/>
+                        <h5 class="mb-1 text-xl font-medium text-white">Debosmita Biswas</h5>
+                        <span class="text-sm text-gray-400">Documentation Associate</span>
+                        <div class="flex mt-4 space-x-3 md:mt-6">
+                            <span class="text-sm text-gray-400">MS Office</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="p-2 shadow md:px-6 md:py-4 bg-gray-900">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="" class="flex items-center mb-4 sm:mb-0">
+                <span class="flogo">CV Wala </span>
+            <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+                <li>
+                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Home</a>
+                </li>
+                <li>
+                    <a href="#service" class="mr-4 hover:underline md:mr-6">Services</a>
+                </li>
+                <li>
+                    <a href="#temp" class="mr-4 hover:underline md:mr-6 ">Template</a>
+                </li>
+                <li>
+                    <a href="#team" class="hover:underline">Team</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-4 sm:mx-auto border-gray-700 lg:my-4" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="" class="hover:underline">CV Wala™</a>. All Rights Reserved.
+        </span>
+        
+    </footer>
+</body>
+
+</html>
